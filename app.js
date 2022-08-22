@@ -7,7 +7,7 @@ const date = require(__dirname + "/date.js");
 
 const app = express();
 
-let items = ['CICD Pipeline example', 'Cook Food', 'Eat Food'];
+let items = ['CICD Pipeline example 2', 'Cook Food', 'Eat Food'];
 let workItems = [];
 
 app.set('view engine', 'ejs');
